@@ -1,0 +1,12 @@
+E:\Dilyana\SoftUni\Level 2\OOP\LaptopShop\LaptopShop\bin\Debug\LaptopShop.exe.config
+E:\Dilyana\SoftUni\Level 2\OOP\LaptopShop\LaptopShop\obj\Debug\LaptopShop.csprojResolveAssemblyReference.cache
+E:\Dilyana\SoftUni\Level 2\OOP\LaptopShop\LaptopShop\bin\Debug\LaptopShop.exe
+E:\Dilyana\SoftUni\Level 2\OOP\LaptopShop\LaptopShop\bin\Debug\LaptopShop.pdb
+E:\Dilyana\SoftUni\Level 2\OOP\LaptopShop\LaptopShop\obj\Debug\LaptopShop.exe
+E:\Dilyana\SoftUni\Level 2\OOP\LaptopShop\LaptopShop\obj\Debug\LaptopShop.pdb
+E:\Dilyana\SoftUni\Level 2\OOP\DefiningClasses\LaptopShop\LaptopShop\bin\Debug\LaptopShop.exe.config
+E:\Dilyana\SoftUni\Level 2\OOP\DefiningClasses\LaptopShop\LaptopShop\obj\Debug\LaptopShop.exe
+E:\Dilyana\SoftUni\Level 2\OOP\DefiningClasses\LaptopShop\LaptopShop\obj\Debug\LaptopShop.pdb
+E:\Dilyana\SoftUni\Level 2\OOP\DefiningClasses\LaptopShop\LaptopShop\bin\Debug\LaptopShop.exe
+E:\Dilyana\SoftUni\Level 2\OOP\DefiningClasses\LaptopShop\LaptopShop\bin\Debug\LaptopShop.pdb
+E:\Dilyana\SoftUni\Level 2\OOP\DefiningClasses\LaptopShop\LaptopShop\obj\Debug\LaptopShop.csprojResolveAssemblyReference.cache

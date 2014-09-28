@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    width: 600px;
+    margin: 0 auto;
+    font-family: Verdana, Ariel, Helvetica;
+}
+
+main h1 {
+    font-size: 13px;
+}
+
+main .date {
+    float: left;
+    font-size: 10px;
+}
+
+main p {
+    margin-top: 12px;
+    margin-left: 5px;
+    font-size: 13px;
+}
+
+.col {
+    display: inline-block;
+    width: 300px;
+    float: left;
+}
+
+.cell {
+    height: 255px;
+    width: 280px;
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid #DDDDDD;
+    box-shadow: 3px 3px 5px #DDDDDD;
+}
+
+img {
+    height: 60px;
+    width: 70px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    float: left;
+    clear: left;
+}
+
+h1:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}

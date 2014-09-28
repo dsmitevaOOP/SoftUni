@@ -1,0 +1,6 @@
+E:\Dilyana\SoftUni\Level 2\OOP\StaticMembers\Geometry\Geometry\bin\Debug\Geometry.exe.config
+E:\Dilyana\SoftUni\Level 2\OOP\StaticMembers\Geometry\Geometry\bin\Debug\Geometry.exe
+E:\Dilyana\SoftUni\Level 2\OOP\StaticMembers\Geometry\Geometry\bin\Debug\Geometry.pdb
+E:\Dilyana\SoftUni\Level 2\OOP\StaticMembers\Geometry\Geometry\obj\Debug\Geometry.csprojResolveAssemblyReference.cache
+E:\Dilyana\SoftUni\Level 2\OOP\StaticMembers\Geometry\Geometry\obj\Debug\Geometry.exe
+E:\Dilyana\SoftUni\Level 2\OOP\StaticMembers\Geometry\Geometry\obj\Debug\Geometry.pdb

@@ -1,0 +1,77 @@
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Scanner;
+import java.util.Set;
+import java.util.TreeSet;
+import java.util.stream.Collectors;
+
+import javax.swing.text.html.HTMLDocument.Iterator;
+
+
+public class SequencesOfEqualStrings {
+	public static void main(String[] args) {
+		
+		Scanner input = new Scanner(System.in);
+		String[] arr = input.nextLine().split(" ");
+		ArrayList<String> my = new ArrayList<>();
+		StringBuilder sb = new StringBuilder();
+		String size = null;
+		int length = 0;
+		boolean found = false;
+		
+		for (int i = 0; i < arr.length; i++) {
+			if (my.contains(arr[i])) {
+				continue;
+			} else {
+				my.add(arr[i]);
+			}
+		}
+		
+		for (int i = 0; i < my.size(); i++) {
+			for (int j = 0; j < arr.length; j++) {
+				
+				if (my.get(i).equals(arr[j])) {
+					
+					sb.append(arr[j]);
+					sb.append(" ");
+				}
+			}
+			
+			for (int j = 0; j < my.size(); j++) {
+				if (sb.toString().replaceAll(" ", "").equals(my.get(j))) {
+					found = true;
+				}
+			}
+			
+			if (my.size() == arr.length) {
+				for (int j = 0; j < arr.length; j++) {
+					System.out.println(arr[j]);
+				}
+				return;
+			} else {
+				
+				if (i == 0) {
+					
+					System.out.println(sb.toString());
+				}
+				
+				if (sb.toString().replace(" ", "").length() == length && found == false) {
+					return;	
+				}
+				
+				if (i > 0 && !sb.toString().replaceAll(" ", "").equals(size)) {
+					
+					 if (found == true){
+						System.out.println(sb.toString());
+					}
+				}
+				
+				length = sb.toString().replaceAll(" ", "").length();
+				size = sb.toString().replaceAll(" ", "");
+				sb = new StringBuilder();
+				found = false;
+			}
+		}
+	}
+}

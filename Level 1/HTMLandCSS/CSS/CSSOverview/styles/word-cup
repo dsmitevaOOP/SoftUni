@@ -1,0 +1,32 @@
+div {
+    width: 850px;
+    margin: 0 auto;
+    background-color: #00923E;
+}
+
+th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #F8C711;
+}
+
+tr:nth-child(even){
+    background-color: #C8C8C8;
+}
+
+tr:nth-child(odd){
+    background-color: white;
+}
+
+table {
+    border-radius: 15px;
+}
+
+input {
+    width: 30px;
+    height: 30px;
+
+}

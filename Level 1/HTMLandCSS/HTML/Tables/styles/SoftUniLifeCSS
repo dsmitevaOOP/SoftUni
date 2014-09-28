@@ -1,0 +1,63 @@
+table.first {
+    height: 500px;
+    width: 30%;
+    font-size: 20px;
+    table-layout: fixed;
+    font-family: Consolas;
+}
+
+table.sec {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    font-size: 11px;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+table th {
+    height: 100px;
+    text-align: center;
+    font-size: 55px;
+}
+
+table td {
+    padding: 5px;
+}
+
+.top-left {
+    vertical-align: top;
+    text-align: left;
+}
+
+.top-right {
+    vertical-align: top;
+    text-align: right;
+}
+
+.top-center {
+    vertical-align: top;
+    text-align: center;
+}
+
+.center-left {
+    vertical-align: middle;
+    text-align: left;
+}
+
+.bottom-right {
+    vertical-align: bottom;
+    text-align: right;
+}
+
+.bottom-left {
+    vertical-align: bottom;
+    text-align: left;
+}
+
+.center-right {
+    vertical-align: middle;
+    text-align: right;
+}

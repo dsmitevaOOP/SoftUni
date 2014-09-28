@@ -1,0 +1,62 @@
+input {
+    padding: 0;
+    margin: 0;
+}
+
+div {
+    border-bottom: 1px solid #E9E9E9;
+}
+
+div h1 {
+    display: inline-block;
+    margin-left: 30px;
+    font-weight: normal;
+    font-size: 25px;
+}
+
+div ul li {
+    display: inline-block;
+    margin-right: 20px;
+    list-style: none;
+    color: #C5C5C5;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+div ul li:hover {
+    cursor: pointer;
+    background-color: lightgrey;
+}
+
+form {
+    float: right;
+    margin-top: 78px;
+    padding-right: 100px;
+}
+
+input[type="text"] {
+    display: inline-block;
+    height: 25px;
+    width: 200px;
+    padding-left: 5px;
+    border: 1px solid #DDDDDD;
+    background-color: #F8F8F8;
+}
+
+input[type="image"] {
+    display: inline-block;
+    position: relative;
+    right: 25px;
+    top: 3px;
+    height: 17px;
+    width: 17px;
+}
+
+input[type="image"]:hover {
+    border: 1px solid #DDDDDD;
+    background-color: #F8F8F8;
+}
+
+input {
+    outline: none;
+}

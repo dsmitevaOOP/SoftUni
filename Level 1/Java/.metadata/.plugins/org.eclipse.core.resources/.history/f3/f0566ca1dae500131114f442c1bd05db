@@ -1,0 +1,32 @@
+import java.util.Scanner;
+
+
+public class _07_CountOfBitsOne {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		int number = input.nextInt();
+		/*int numberOfOnes = Integer.bitCount(number);
+		System.out.println(numberOfOnes);*/
+		
+		int counter = 0;
+		/*String numberToBinary = Integer.toBinaryString(number);
+		char[] myArray = numberToBinary.toCharArray();
+		for (int i = 0; i < myArray.length; i++) {
+			if (myArray[i] == '1') {
+				counter++;
+			}
+		}
+		System.out.println(counter);*/
+		
+		for (int i = 0; i < 32; i++) {
+			int bit = number & 1;
+			if (bit == 1) {
+				counter++;
+			}
+			number = number >> 1;
+		}
+
+	}
+
+}

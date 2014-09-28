@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;Pr4_LongestIncreasingSequence&apos; to &apos;LongestIncreasingSequence&apos;&#x0D;&#x0A;- Original project: &apos;JavaCollectionsBasics&apos;&#x0D;&#x0A;- Original element: &apos;Pr4_LongestIncreasingSequence&apos;&#x0D;&#x0A;- Renamed element: &apos;LongestIncreasingSequence&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Pr4_LongestIncreasingSequence&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{Pr4_LongestIncreasingSequence.java[Pr4_LongestIncreasingSequence" matchStrategy="1" name="LongestIncreasingSequence" qualified="false" references="true" similarDeclarations="false" stamp="1400963832824" textual="false" version="1.0"/>
+</session>

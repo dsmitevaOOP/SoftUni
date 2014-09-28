@@ -1,0 +1,9 @@
+E:\Dilyana\SoftUni\Level 2\OOP\People\People\bin\Debug\People.exe.config
+E:\Dilyana\SoftUni\Level 2\OOP\People\People\bin\Debug\People.exe
+E:\Dilyana\SoftUni\Level 2\OOP\People\People\bin\Debug\People.pdb
+E:\Dilyana\SoftUni\Level 2\OOP\People\People\obj\Debug\People.csprojResolveAssemblyReference.cache
+E:\Dilyana\SoftUni\Level 2\OOP\People\People\obj\Debug\People.exe
+E:\Dilyana\SoftUni\Level 2\OOP\People\People\obj\Debug\People.pdb
+E:\Dilyana\SoftUni\Level 2\OOP\DefiningClasses\People\People\bin\Debug\People.exe.config
+E:\Dilyana\SoftUni\Level 2\OOP\DefiningClasses\People\People\obj\Debug\People.exe
+E:\Dilyana\SoftUni\Level 2\OOP\DefiningClasses\People\People\obj\Debug\People.pdb

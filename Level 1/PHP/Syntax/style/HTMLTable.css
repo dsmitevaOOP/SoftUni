@@ -1,0 +1,21 @@
+table{
+    width: 300px;
+}
+
+table, td, th {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td, th {
+    width: 50%;
+}
+
+th {
+    text-align: left;
+    background-color: #FF9C00;
+}
+
+td {
+    text-align: right;
+}

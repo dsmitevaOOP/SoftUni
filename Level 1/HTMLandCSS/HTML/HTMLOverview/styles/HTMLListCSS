@@ -1,0 +1,47 @@
+body{
+    font-family: 'Verdana';
+    font-size: 12px;
+}
+
+ol.roman{
+    list-style-type: upper-roman;
+}
+
+ol.roman li{
+
+    margin-left: -20px;
+}
+
+ol.letter{
+    list-style-type: lower-alpha;
+}
+
+ol.letter li {
+    margin-left: -20px;
+}
+
+ol.arabic{
+    list-style-type: decimal;
+}
+
+ul.square{
+    list-style-type: square;
+}
+
+ul.square li{
+    margin-left: 0;
+}
+
+
+ul.circle{
+    list-style-type: circle;
+}
+
+ul.circle li{
+    margin-left: 0;
+}
+
+
+ul.disc{
+    list-style-type: disc;
+}

@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+@font-face {
+    font-family: Yanone Kaffeesatz;
+    src: url('../fonts/yanonekaffeesatz-regular-webfont.ttf');
+}
+
+body {
+    background: url('../img/form/form-background.png') repeat;
+    font-family: "Yanone Kaffeesatz",Ariel,sans-serif;
+}
+
+input, textarea {
+    font-family: Helvetica, Ariel, serif;
+}
+
+#top{
+    width: 530px;
+    height: 316px;
+    margin: 210px auto 0 auto;
+    background: url('../img/form/envelope-top.png') no-repeat;
+    z-index: -1;
+
+}
+
+#bottom {
+    width: 530px;
+    height: 260px;
+    margin: 0 auto;
+    position: relative;
+    bottom: 135px;
+    background: url('../img/form/envelope-bottom.png') no-repeat;
+    z-index: 2;
+}
+
+form {
+    width: 420px;
+    height: 450px;
+    position: absolute;
+    margin: 110px auto;
+    padding: 20px;
+    top: 10px;
+    left: 445px;
+    background: url('../img/form/letter-background.png') repeat;
+    z-index: 1;
+}
+
+h1 {
+    margin: 35px auto;
+    text-align: center;
+    font-size: 50px;
+    color: #817873
+}
+
+span {
+    display:block;
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #7C7873;
+    line-height: 10px;
+}
+
+label {
+    display: block;
+    width: 100%;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #B3ABB3;
+    line-height: 10px;
+}
+
+textarea {
+    width: 400px;
+    margin: 0 auto 15px auto;
+    height: 80px;
+}
+
+input {
+    width: 400px;
+    margin: 0 auto 15px auto;
+    height: 30px;
+}
+
+textarea, input {
+    border-radius: 5px;
+    background: none;
+    border: 1px solid #DDDDDD;
+    padding: 5px;
+}
+
+textarea:focus, input[type="text"]:focus {
+    background: white;
+}
+
+input[type="submit"]{
+    display: table-cell;
+    height: 45px;
+    width: 170px;
+    background: none;
+    border: none;
+    font-family: "Yanone Kaffeesatz",Ariel,sans-serif;
+    font-size: 25px;
+    color: #7C788B;
+    vertical-align: middle;
+    margin: 0 120px;
+}
+
+input[type="submit"]:hover {
+    background-color: #BBC9CF;
+    color: #435C70;
+    cursor: pointer;
+    text-shadow: 2px 2px 1px white;
+}

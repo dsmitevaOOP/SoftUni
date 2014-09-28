@@ -1,0 +1,6 @@
+E:\Dilyana\SoftUni\Level 2\OOP\StaticMembers\Point3D\Point3D\bin\Debug\Point3D.exe.config
+E:\Dilyana\SoftUni\Level 2\OOP\StaticMembers\Point3D\Point3D\obj\Debug\Point3D.csprojResolveAssemblyReference.cache
+E:\Dilyana\SoftUni\Level 2\OOP\StaticMembers\Point3D\Point3D\bin\Debug\Point3D.exe
+E:\Dilyana\SoftUni\Level 2\OOP\StaticMembers\Point3D\Point3D\bin\Debug\Point3D.pdb
+E:\Dilyana\SoftUni\Level 2\OOP\StaticMembers\Point3D\Point3D\obj\Debug\Point3D.exe
+E:\Dilyana\SoftUni\Level 2\OOP\StaticMembers\Point3D\Point3D\obj\Debug\Point3D.pdb

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html>
+
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Flight Order</title>
+    <LINK REL=StyleSheet HREF="styles/flight-order" TYPE="text/css" MEDIA=screen>
+</head>
+
+<body>
+<form>
+    <span id="form-header">Flight Order</span>
+    <section id="left">
+        <label>From</label>
+        <input type="text" placeholder="enter a city" required="required" class="city" id="from"/>
+        <label>Departure Date</label>
+        <input type="date" required="required" value="2014-06-19" class="date" />
+        <label>Return Date</label>
+        <input type="date" required="required" value="2014-06-19" class="date"/>
+        <div>
+            <label>12+</label>
+            <input type="number" value="0" min="0" class="years"/>
+            <label>2-12</label>
+            <input type="number" value="0" min="0" class="years"/>
+            <label>0-2</label>
+            <input type="number" value="0" min="0" class="years"/>
+        </div>
+    </section>
+    <section>
+        <label>To</label>
+        <input type="text" placeholder="enter a city" required="required" class="city"/>
+        <input type="checkbox" class="check" id="check"/>
+        <label id="check-label" for="check">Prefer directs</label>
+        <label class="label-time">Time Interval</label>
+        <input type="time" required="required" value="00:00" class="time"/>
+        <input type="time" required="required" value="16:00" class="time"/>
+        <label class="label-time">Time Interval</label>
+        <input type="time" required="required" value="00:00" class="time"/>
+        <input type="time" required="required" value="00:00" class="time"/>
+        <label>Choose class</label>
+        <select id="class">
+            <option>First Class</option>
+            <option selected>Economy</option>
+            <option>Business</option>
+        </select>
+        <input type="submit" value="Search" id="search"/>
+    </section>
+</form>
+</body>
+
+</html>

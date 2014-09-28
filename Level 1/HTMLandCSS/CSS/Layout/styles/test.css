@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    padding: 0px;
+}
+
+body {
+    background-color: black;
+}
+
+nav {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 0.9em;
+    background-color: #234465;
+    width: 100%;
+    height: 110px;
+    padding-right: 40px;
+    font-size: 1.1em;
+    font-family: Calibri;
+}
+
+nav ul {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+nav > ul:first-of-type {
+    float: right;
+    clear: both;
+    height: 55px;
+    padding-top: 20px;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+}
+
+nav > ul > li:hover > a {
+    color: #ead912;
+}
+
+nav ul:first-of-type li {
+    height: 100%;
+}
+
+nav > ul:first-of-type > li:first-of-type {
+    background-image: url(images/bell.png);
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position: 35px -4px;
+}
+
+nav > ul:first-of-type > li:first-of-type:hover {
+    background-image: url(images/bellHover.png);
+    background-repeat: no-repeat;
+}
+
+nav > ul:first-of-type > li:first-of-type > a {
+    padding-right: 30px;
+}
+
+nav ul:first-of-type li a {
+    padding-left: 20px;
+}
+
+nav ul li a span {
+    font-size: 0.6em;
+    display: inline-block;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+nav ul:first-of-type li form input[type="text"] {
+    width: 200px;
+    height: 35px;
+    border: 1px solid rgba(0,0,0,0.0);
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-left: 10px;
+    outline: none;
+}
+
+nav ul:first-of-type li form input:hover {
+    border: 1px solid #ff6a00;
+}
+
+nav ul:first-of-type li form button {
+    width: 35px;
+    height: 35px;
+    vertical-align: middle;
+    position: relative;
+    left: -4px;
+    top: -1px;
+    border: none;
+    background-image: url(images/search.png);
+    background-repeat: no-repeat;
+    background-position: 4px 4px;
+    background-color: #f1f1f7;
+    -webkit-border-top-right-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    -moz-border-radius-topright: 5px;
+    -moz-border-radius-bottomright: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-left: 1px solid #cacccc;
+}
+
+nav ul:first-of-type li form button:hover {
+    background-color: #2585ed;
+    border: 1px solid #ff6a00;
+}
+
+/*------bottom ul-------*/
+
+nav ul:last-of-type {
+    float: right;
+    clear: both;
+}
+
+nav > ul:last-of-type > li#dropdown > ul {
+    display: none;
+}
+
+nav > ul:last-of-type > li#dropdown:hover > ul {
+    display: block;
+    position: absolute;
+    border-top: 2px solid #ff6a00;
+    margin-top: 0px;
+}
+
+nav > ul:last-of-type > li#dropdown > a {
+    padding-bottom: 23px;
+}
+
+nav > ul:last-of-type > li#dropdown:hover > ul > li {
+    display: block;
+    background-color: #234465;
+    width: 100%;
+    border-bottom: 1px solid #f1f1f7;
+}
+
+nav > ul:last-of-type > li#dropdown:hover > ul > li:hover {
+    background-color: #ff6a00;
+}
+
+nav ul:last-of-type li:not(:last-of-type) a {
+    padding-right: 35px;
+    padding-top: 10px;
+}
+
+nav > ul:last-of-type > li:first-of-type {
+    height: 100px;
+    width: 250px;
+    position: absolute;
+    top: 5px;
+    left: 30px;
+}
+
+nav ul:last-of-type li a#logo {
+    height: 90px;
+    width: 250px;
+    background-image: url(images/softUniMenu.png);
+    background-repeat: no-repeat;
+    background-size: 250px 105px;
+}
+
+.onclick-menu {
+    position: relative;
+    display: inline-block;
+    padding: 5px;
+    outline: none;
+}
+
+.onclick-menu:hover {
+    background-color: #2585ed;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.onclick-menu:before {
+    content: "ABOUT THE UNIVERSITY▼";
+    color: white;
+    padding-right: 35px;
+}
+
+.onclick-menu:focus .onclick-menu-content {
+    display: block;
+    background-color: #234465;
+    width: 100%;
+    text-align: left;
+    left: 0px;
+    margin-top: 23px;
+    outline: none;
+    border-top: 2px solid #ff6a00;
+}
+
+.onclick-menu:focus .onclick-menu-content li {
+    list-style: none;
+    display: block;
+    border-bottom: 1px solid #f1f1f7;
+}
+
+.onclick-menu:focus:active {
+    background-color: #ff6a00;
+}
+
+.onclick-menu:focus .onclick-menu-content li a {
+    font-size: 1em;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.onclick-menu:focus .onclick-menu-content li:hover a {
+    background-color: #ff6a00;
+    display: inline-block;
+    width: 82%;
+}
+
+.onclick-menu-content {
+    position: absolute;
+    display: none;
+}

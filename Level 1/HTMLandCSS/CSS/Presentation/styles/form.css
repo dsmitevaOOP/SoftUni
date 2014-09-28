@@ -1,0 +1,111 @@
+form {
+    width: 400px;
+    height: 780px;
+    margin: 30px 50px;
+    padding: 20px;
+    background: url("../img/formBackground.jpg");
+    font-family: 'Tahoma';
+}
+
+legend {
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+fieldset {
+    border: none;
+    margin-bottom: 10px;
+}
+
+div {
+    width: 350px;
+    height: auto;
+    margin-bottom: 5px;
+    padding: 5px 10px;
+    border: 2px solid #A9BFDB;
+    border-radius: 5px;
+    background-color: rgba(192,192,192,0.4);
+}
+
+label {
+    display: inline-block;
+    width: 120px;
+}
+
+label[for="address"] {
+    margin-top: 5px;
+    vertical-align: top;
+}
+
+.radio {
+    width: 35px;
+    margin-right: 0;
+}
+
+label[for="visa"] {
+    padding-left: 30px;
+    background: url("../img/visa.png") no-repeat;
+}
+
+label[for="amex"] {
+    padding-left: 30px;
+    background: url("../img/amex.png") no-repeat;
+}
+
+label[for="mastercard"] {
+    padding-left: 30px;
+    background: url("../img/mastercard.png") no-repeat;
+}
+
+input {
+    display: inline-block;
+    padding: 5px 10px;
+    width: 200px;
+    border-radius: 5px;
+}
+
+input[type="radio"] {
+    width:15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+textarea {
+    display: inline-block;
+    padding: 5px 10px;
+    width: 200px;
+    height: 60px;
+    border-radius: 5px;
+}
+
+span {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+input[type="submit"] {
+    display: block;
+    width: 120px;
+    height: 40px;
+    margin: 10px auto;
+    border:none;
+    border-radius: 20px;
+    background-color: #04152F;
+    color: white;
+}
+
+input:focus, textarea:focus {
+    background-color: black;
+    opacity: 0.2;
+}
+
+input[type=submit]:hover {
+    cursor: pointer;
+    background-color: #DEF0FA;
+    opacity: 0.4;
+    color: black;
+    font-weight: bold;
+}

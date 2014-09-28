@@ -1,0 +1,6 @@
+E:\Dilyana\SoftUni\Level 2\OOP\ExceptionHandling\SquareRoot\SquareRoot\bin\Debug\SquareRoot.exe.config
+E:\Dilyana\SoftUni\Level 2\OOP\ExceptionHandling\SquareRoot\SquareRoot\bin\Debug\SquareRoot.exe
+E:\Dilyana\SoftUni\Level 2\OOP\ExceptionHandling\SquareRoot\SquareRoot\bin\Debug\SquareRoot.pdb
+E:\Dilyana\SoftUni\Level 2\OOP\ExceptionHandling\SquareRoot\SquareRoot\obj\Debug\SquareRoot.csprojResolveAssemblyReference.cache
+E:\Dilyana\SoftUni\Level 2\OOP\ExceptionHandling\SquareRoot\SquareRoot\obj\Debug\SquareRoot.exe
+E:\Dilyana\SoftUni\Level 2\OOP\ExceptionHandling\SquareRoot\SquareRoot\obj\Debug\SquareRoot.pdb

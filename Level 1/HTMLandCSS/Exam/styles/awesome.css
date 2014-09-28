@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: Fairview;
+    src: url('../fonts/Fairview_Regular.otf');
+}
+
+main, footer {
+    font-family: Ninito, Ariel, sans-serif;
+}
+
+#wrap {
+    width: 670px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* header */
+
+header {
+    font-family: Fairview, Helvetica, sans-serif;
+    background-color: #E05E43;
+}
+
+h1 {
+    text-align: center;
+    font-size: 100px;
+}
+
+header h1 a {
+    color: black;
+}
+
+header a {
+    color: #666666;
+}
+
+header nav {
+    height: 50px;
+    width: 670px;
+    background-color: white;
+}
+
+nav ul {
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+    margin-top: 5px;
+    padding: 5px;
+    list-style: none;
+    font-size: 25px;
+}
+
+header nav ul li a:hover {
+    color: black;
+}
+
+header nav ul li:nth-child(3){
+    background-color: #E05E43;
+}
+
+/* footer */
+
+footer {
+    width:  670px;
+    margin-top: 30px;
+    background-color: #222222;
+    color: #AAAAAA;
+}
+
+footer a {
+    color: #AAAAAA;
+}
+
+footer nav ul {
+    text-align: center;
+    margin: 5px 25px;
+    padding: 10px;
+    border-bottom: 1px solid #444444;
+}
+
+footer nav ul li {
+    display: inline-block;
+    margin: 5px;
+    list-style: none;
+}
+
+footer nav ul li a {
+    padding: 10px;
+}
+
+footer nav ul li a:hover{
+    background-color: #AAAAAA;
+    color: #E05E43;
+}
+
+.email, .address {
+    padding: 15px 0;
+    margin: 5px;
+    text-align: center;
+}
+
+/* main */
+
+h2 {
+   margin: 10px 0;
+}
+
+table {
+    width: 600px;
+    text-align: left;
+}
+
+td, th {
+    width: 200px;
+    padding: 10px 0;
+}
+
+main span.data {
+    display: block;
+    width: 600px;
+    padding: 10px 0;
+    font-weight: bold;
+    border-bottom: 1px solid #DDDDDD;
+}
+
+main .prog span {
+    color:  #E05E43;
+    border-bottom: 1px dotted  #E05E43;
+}
+
+main .prog span:hover {
+    cursor: pointer;
+    border-bottom: 1px solid #E05E43;
+}

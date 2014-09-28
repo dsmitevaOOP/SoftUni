@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ExternalProjectImportWizard">
+		<item value="true" key="WizardProjectsImportPage.STORE_NESTED_PROJECTS"/>
+		<item value="true" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Users\Dilyana\Desktop\Homework-Масиви, списъци, стрингове, речници, множества-6859\JavaCollectionsHomework"/>
+			<item value="C:\Users\Dilyana\Desktop\Homework-Масиви, списъци, стрингове, речници, множества-6869\HW_JavaCollectionsBasics"/>
+			<item value="C:\Users\Dilyana\Desktop\Homework-Масиви, списъци, стрингове, речници, множества-6686"/>
+			<item value="C:\Users\Dilyana\Desktop\Java-Loops-Methods-Classes-Homework"/>
+			<item value="C:\Users\Dilyana\Desktop\Homework-Цикли, методи, работа с класове-6032"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+			<item value="C:\Users\Dilyana\Desktop\TionClusterSokoban-master.zip"/>
+			<item value="C:\Users\Dilyana\Desktop\SocobanProject.zip"/>
+		</list>
+	</section>
+	<section name="NewWizardAction">
+	</section>
+	<section name="SaveAsDialogSettings">
+		<item value="525" key="DIALOG_WIDTH"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="579" key="DIALOG_HEIGHT"/>
+		<item value="429" key="DIALOG_X_ORIGIN"/>
+		<item value="8" key="DIALOG_Y_ORIGIN"/>
+	</section>
+</section>

@@ -1,0 +1,42 @@
+import java.awt.List;
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.Writer;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Locale;
+
+
+public class ListOfProducts {
+	public static void main(String[] args) {
+		
+		Locale.setDefault(Locale.ROOT);
+		
+		ArrayList<Products> products = new ArrayList<Products>();
+		BufferedReader reader = null;
+		Writer writer = null;
+		
+		try {
+			reader = new BufferedReader(new FileReader("Products.txt"));
+			String line = null;
+			while ((line = reader.readLine()) != null) {
+				String[] splittedLine = line.split(" ");
+				products.add(new Products(splittedLine[0], Double.parseDouble(splittedLine[1])));
+			}
+		Collections.sort(products);
+
+			writer = new BufferedWriter(new FileWriter("Output.txt"));
+			for(Products product : products){
+				writer.write(product.getPrice() + " " + product.getName() + "\r\n");
+			}
+		} catch (Exception ex) {
+			System.out.println("Error");
+		}
+		finally {
+            try {writer.close();} catch (Exception ex) {}
+         }
+	}
+
+}

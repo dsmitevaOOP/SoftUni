@@ -1,0 +1,158 @@
+body, header, h1, h2, span, form, fieldset, legend, input, label, div, select, textarea, option {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Verdana";
+}
+
+.body {
+    display: inline-block;
+    background-color: #3B5997;
+    height: 630px;
+}
+
+.body, form {
+    width: 1000px;
+}
+
+h1, h2, span {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+#span {
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 90px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 33px;
+    margin-bottom: 10px;
+}
+
+span#sec {
+    display: inline-block;
+    width: 100%;;
+    font-size: 18px;
+}
+
+
+form, fieldset, label, input, textarea {
+    display: inline-block;
+}
+
+fieldset, #left input, #right input, #right div input, #right div select, textarea, .body {
+    margin: 5px 5px 5px 5px;
+    padding: 5px 5px 5px 5px;
+}
+
+#right label, #left label {
+    margin-left: 5px;
+}
+
+fieldset {
+    margin-top: 30px;
+    height: 300px;
+    float: left;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+#left {
+    width: 350px;
+    margin-right: 20px;
+}
+
+input, textarea, select {
+    border-radius: 6px;
+}
+
+#right, #right label, #right div {
+    width: 550px;
+}
+
+#left input {
+    width: 140px;
+}
+
+#left #datetime {
+    width: 255px;
+}
+
+#left label {
+    width: 300px;
+    margin: 8px 0 0 6px;
+}
+
+#left div {
+    width: 300px;
+}
+
+#left div input, #left div label {
+    width: 25px;
+}
+
+#left div input {
+    margin-right: -11px;
+    margin-left: 3px;
+}
+
+#left div label {
+    margin-left: 3px;
+    margin-right: 45px;
+}
+
+#right input[type="number"] {
+    width: 70px;
+}
+
+#right div input, #right div select, #right div input[type="number"], #right input[type="text"] {
+     width: 150px;
+}
+
+#right div select {
+    width: 165px;
+}
+
+#right div {
+    margin-top: 5px;
+    margin-bottom: 7px;
+}
+
+textarea {
+    width: 550px;
+    height: 80px;
+}
+
+#reset {
+    width: 365px;
+    margin-left: 5px;
+    margin-top: 5px;
+    padding: 5px 5px 5px 5px;
+    height: 60px;
+    background-color: #DDDDDD;
+    border: none;
+    color: #3B5997;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#submit {
+    width: 587px;
+    margin-left: 19px;
+    padding: 5px 5px 5px 5px;
+    height: 60px;
+    background-color: #DDDDDD;
+    border: none;
+    color: #3B5997;
+    font-size: 20px;
+    font-weight: bold;
+}

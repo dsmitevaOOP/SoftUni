@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>
+
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Simple Form</title>
+    <LINK REL=StyleSheet HREF="styles/simple-form" TYPE="text/css" MEDIA=screen>
+</head>
+
+<body>
+
+<section>
+
+    <header>
+        <h3>Enter the system</h3>
+        <span class="out">It is necessary to login in Your account in order to sign in for a course</span>
+    </header>
+
+    <form method="post" id="new">
+        <span class="form-header">ARE YOU NEW? <span class="reg">REGISTER</span></span>
+        <br><input type="text" placeholder="User name" required="required" class="input">
+        <br><input type="email" placeholder="Email" required="required" class="input">
+        <br><input type="password" placeholder="Password" required="required" class="input">
+        <br><input type="password" placeholder="Confirm Password" required="required" class="input">
+        <br><input type="submit" value="Register" id="reg-button" class="reg-button">
+    </form>
+
+    <form method="post" id="login">
+        <span class="log-header">ALREADY A STUDENT? LOGIN</span>
+        <br><input type="text" placeholder="User name" required="required" class="log">
+        <br><input type="password" placeholder="Password" required="required" class="log">
+        <br><input type="checkbox" class="check">
+        <label class="rem">Remember me?</label>
+        <input type="submit" value="Login" id="login-button">
+        <a href="https://softuni.bg/account/forgottenpassword" id="forgot-pass">Forgot Password</a>
+    </form>
+
+</section>
+
+</body>
+
+</html>

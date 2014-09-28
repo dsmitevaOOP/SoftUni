@@ -1,0 +1,46 @@
+table {
+    width: 530px;
+    height: 625px;
+    table-layout: fixed;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+td, th {
+    height: 100px;
+}
+
+table button {
+    color: blue;
+    height: 100%;
+    width: 99%;
+    font-size: 25px;
+    margin: 1px;
+    cursor: pointer;
+    border: none;
+    background-image: linear-gradient(bottom, #D8D8D8 50%, #F0F0F0 50%);
+    background-image: -o-linear-gradient(bottom, #D8D8D8 50%, #F0F0F0 50%);
+    background-image: -moz-linear-gradient(bottom, #D8D8D8 50%, #F0F0F05 50%);
+    background-image: -webkit-linear-gradient(bottom, #D8D8D8 50%, #F0F0F0 50%);
+    background-image: -ms-linear-gradient(bottom, #D8D8D8 50%, #F0F0F0 50%);
+}
+table button:hover {
+    background-color: darkgray;
+}
+
+table button#head {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+table button.nested {
+    height: 52%;
+    font-size: 15px;
+    color: #743BA9;
+}
+
+table button#beer {
+    text-align: right;
+}

@@ -1,0 +1,123 @@
+section {
+    display: inline-block;
+    background-color: #EEEEEE;
+    width: 800px;
+    height: 400px;
+    font-family: verdana;
+}
+
+form {
+    width: 305px;
+    height: 262px;
+    padding-top: 10px;
+    padding-left: 7px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+#new {
+    float: left;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+#login {
+    width: 50%;
+    background-color: #234465;
+    padding: 10px 10px 10px 10px;
+}
+
+#reg-button {
+    width: 150px;
+    height: 33px;
+    float: right;
+    margin-top: 10px;
+    color: #234465;
+    font-weight: bold;
+    border: 2px solid #234465;
+    background-color: #EEEEEE;
+    margin-right: 2px;
+}
+
+#login-button {
+    width: 120px;
+    height: 35px;
+    margin: 10px 26px 10px 10px;
+    float: right;
+    background-color: #234465;
+    color: white;
+    font-weight: bold;
+    border: 2px solid #B07C24;
+}
+
+.input {
+    margin: 10px 10px 0 0;
+    width: 98%;
+    height: 36px;
+}
+
+.log {
+    margin: 10px 10px 10px 10px;
+    width: 90%;
+    height: 36px;
+}
+
+.check {
+    margin: 10px 5px 10px 10px;
+    height: 20px;
+    width: 20px;
+}
+
+label {
+    display: inline-block;
+    color: white;
+    line-height: 35px;
+    position: absolute;
+    font-size: 15px;
+}
+
+a {
+    margin: 52px -121px 5px 36px;
+    float: right;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+h3 {
+    color: #234465;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 10px;
+}
+
+.out {
+    color: grey;
+    margin: 10px;
+}
+
+.form-header {
+    color: #6F6F6F;
+    font-weight: bolder;
+}
+
+.reg {
+    color: #234465;
+}
+
+.log-header {
+    color: white;
+    font-weight: bolder;
+    padding-left: 10px;
+}
+
+input {
+    outline: 0;
+}
+
+
+

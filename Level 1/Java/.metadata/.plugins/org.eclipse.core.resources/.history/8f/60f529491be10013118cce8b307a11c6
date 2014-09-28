@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+
+public class ThreeLetterWord {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner (System.in);
+		String setChars = input.nextLine();
+		char[] chars = setChars.toCharArray();
+		for (int f = 0; f < chars.length; f++) {
+			for (int s = 0; s < chars.length; s++) {
+				for (int t = 0; t < chars.length; t++) {
+		                System.out.print ("" + chars[f] + chars[s] + chars[t]);
+				}
+		 
+			}
+		 
+		}
+
+	}
+
+}

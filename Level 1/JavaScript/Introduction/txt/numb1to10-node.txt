@@ -1,0 +1,6 @@
+cd Desktop
+cd SoftUni
+cd JavaScript
+cd Intgroduction
+cd script
+node numb1to10.js

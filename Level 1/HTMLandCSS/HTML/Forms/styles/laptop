@@ -1,0 +1,116 @@
+section#main {
+    float: left;
+    width: 600px;
+}
+
+#main div {
+    display: inline-block;
+    width: 170px;
+    height: 220px;
+    padding: 5px 0 5px 5px;
+    margin: 7px 7px 7px 7px;
+    float: left;
+    position: relative;
+    border: 1px groove #E6F4FC;
+    border-radius: 5px;
+}
+
+#main div:hover {
+    cursor: pointer;
+    background-color: lightgrey;
+}
+
+.header {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    color: #16315D;
+    font-size: 15px;
+    font-weight: bold;}
+
+.char {
+    display: inline-block;
+    width: 70%;
+    text-align: left;
+    color: grey;
+    font-size: 13px;
+}
+
+.price {
+    display: inline-block;
+    width: 50%;
+    line-height: 30px;
+    float: right;
+    text-align: center;
+    color: white;
+    font-size: 13px;
+    background-color: #2C425A;
+    border-top-left-radius: 7px;
+}
+
+.mac {
+    margin-top: 40px;
+}
+
+.new {
+    margin-top: 36px
+}
+
+.mac2 {
+    margin-top: 34px;
+}
+
+img {
+    display: inline-block;
+    width: 100%;
+    align-content: center;
+    border: none;
+}
+
+#aside {
+    display: inline-block;
+    width: 310px;
+    margin-top: 0;
+    padding-top: 0;
+    background-color: #F7FCFF;
+    color: grey;
+    border: 1px solid #E6F4FC;
+}
+
+#aside div {
+    display: inline-block;
+    height: 87px;
+    padding-top: 5px;
+}
+
+#aside input {
+    display: inline-block;
+    vertical-align: middle;
+    width: 300px;
+    margin-top: 7px;
+}
+
+#aside label {
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    text-align: center;
+    font-size: 20px;
+}
+
+.min {
+    float: left;
+}
+
+.max {
+    float: right;
+}
+
+.min, .max {
+    display: inline-block;
+    font-size: 12px;
+}
+
+a {
+    text-decoration: none;
+}

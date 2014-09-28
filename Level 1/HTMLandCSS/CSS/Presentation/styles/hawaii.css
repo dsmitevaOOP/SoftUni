@@ -1,0 +1,85 @@
+@font-face {
+    font-family: Animated;
+    src: url('../font/Animated.ttf') format('truetype');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+    width: 900px;
+    height: 600px;
+    position: relative;
+    margin: 20px auto;
+    background: url("../img/HawaiiBackground.png"),
+    -webkit-radial-gradient(170px 120px, circle,#F9F9F9 0%,#F9F7BB 8%,#F1F6FC 13%,#006EDB 60% );
+    background-repeat: no-repeat;
+}
+
+#wrapper p {
+    position: absolute;
+    left: 470px;
+    top: 15px;
+    font-family: Animated;
+    font-size: 3.1em;
+    color: #FDBC21;
+}
+
+div#wrapper div#container {
+    width: 100%;
+    height: 100%;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+div#wrapper div#container div {
+    display: inline-block;
+    position: absolute;
+}
+
+div#wrapper div#container div {
+    /*border:1px solid black;*/
+    width: 270px;
+    height: 400px;
+    background-repeat: no-repeat;
+}
+
+div#wrapper div#container div#VladoG {
+    background-image: url(../img/VladoGHula.png);
+    top: 221px;
+    left: 41px;
+}
+
+div#wrapper div#container div#Petia {
+    background-image: url(../img/PetiaHula.png);
+    top: 190px;
+    left: 185px;
+}
+
+div#wrapper div#container div#Tedi {
+    background-image: url(../img/TediHula.png);
+    top: 360px;
+    left: 270px;
+}
+
+div#wrapper div#container div#Nakov {
+    background-image: url(../img/NakovHula.png);
+    top: 160px;
+    left: 420px;
+}
+
+div#wrapper div#container div#Alex {
+    background-image: url(../img/AlexHula.png);
+    top: 205px;
+    left: 500px;
+    z-index: 1;
+}
+
+div#wrapper div#container div#VladoK {
+    background-image: url(../img/VladoKHula.png);
+    top: 235px;
+    left: 680px;
+}

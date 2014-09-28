@@ -1,0 +1,12 @@
+p, input, img {
+    vertical-align: middle;
+}
+
+.search {
+    height: 25px;
+    width: 200px;
+}
+
+input {
+    outline: 0;
+}

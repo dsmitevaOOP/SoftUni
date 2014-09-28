@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html>
+
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Fakebook</title>
+    <LINK REL=StyleSheet HREF="styles/fakebook" TYPE="text/css" MEDIA=screen>
+</head>
+
+<body>
+
+<div class="body">
+
+    <header>
+        <h1>fakebook<span id="span">&#174;</span></h1>
+        <h2>Registration</h2>
+        <span id="sec">It is safe and it will always be!</span>
+    </header>
+
+    <form method="get">
+        <fieldset id="left">
+
+            <legend>None-Important Information</legend>
+
+            <input type="text" placeholder="First Name" onloadeddata="1">
+            <input type="text" placeholder="Last Name">
+            <input type="email" placeholder="Your Email">
+            <input type="tel" placeholder="Phone Number">
+            <input type="password" placeholder="Your Password">
+            <input type="url" placeholder="Website">
+            <label for="datetime">Birthday</label>
+            <input type="datetime-local" id="datetime">
+
+            <div>
+                <input type="radio" name="sex" value="female" id="female">
+                <label for="female">Female</label>
+                <input type="radio" name="sex" value="male" id="male">
+                <label for="male">Male</label>
+                <input type="radio" name="sex" value="other" id="other">
+                <label for="other">Other</label>
+            </div>
+
+        </fieldset>
+
+        <fieldset id="right">
+
+            <legend>Important Information *required</legend>
+
+            <input type="text" placeholder="Country" required="required">
+            <input type="text" placeholder="Village" required="required">
+            <input type="text" placeholder="District" required="required">
+            <input type="text" placeholder="Street" required="required">
+            <input type="number" placeholder="Nr" required="required">
+            <input type="number" placeholder="Floor" required="required">
+            <input type="number" placeholder="Ap Nr" required="required">
+            <div>
+                <label for="color">Door Color</label>
+                <input type="color" value="#FF80C0" id="color" required="required">
+                <input type="number" placeholder="Water Meter Nr" required="required">
+                <select id="aunt" required="required">
+                    <option disabled="disabled" selected="selected">Aunt Panties' Size</option>
+                    <option>S</option>
+                    <option>M</option>
+                    <option>L</option>
+                    <option>XL</option>
+                    <option>XXL</option>
+                </select>
+            </div>
+            <label for="textarea">More Personal Information</label>
+            <textarea id="textarea" placeholder="Give US MOre Information!!!" required="required"></textarea>
+
+        </fieldset>
+
+        <input type="reset" class="buttons" id="reset" value="Clear Form">
+        <input type="submit" class="buttons" id="submit" value="Register">
+
+    </form>
+
+</div>
+
+</body>
+
+</html>

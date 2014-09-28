@@ -1,0 +1,83 @@
+import java.util.Scanner;
+
+
+public class FullHouse {
+
+	public static void main(String[] args) {
+		
+		Scanner input = new Scanner(System.in);
+		
+		char[] suit = new char[4];
+		suit[0] = '\u2663';
+		suit[1] = '\u2665';
+		suit[2] = '\u2666';
+		suit[3] = '\u2660';
+		
+		String[] cards = new String[52];
+		int count = 0;
+		
+		for (int i = 0; i < suit.length; i++) {
+		
+			for (int j = 2; j < 15; j++) {
+				
+				switch (j) {
+				
+				case 11:
+					cards[count] = "J" + suit[i] + " ";
+					break;
+				
+				case 12:
+					cards[count] = "Q" + suit[i] + " ";
+					break;
+				
+				case 13:
+					cards[count] = "K" + suit[i] + " ";
+					break;
+				
+				case 14:
+					cards[count] = "A" + suit[i] + " ";
+					break;
+
+				default:
+					cards[count] = "" + j + suit[i] + " ";
+				
+				}
+				
+				count++;
+			}
+		}
+		
+		StringBuilder fullHouse = new StringBuilder();
+		
+		for (int f = 0; f < cards.length; f++) {
+			for (int s = 0; s < cards.length; s++) {
+				for (int t = 0; t < cards.length; t++) {
+					for (int i = 0; i < cards.length; i++) {
+						for (int j = 0; j < cards.length; j++) {
+							
+							boolean three = (cards[f].charAt(0) == cards[s].charAt(0)) && (cards[f].charAt(0) == cards[t].charAt(0)) &&
+									(cards[s].charAt(0) == cards[t].charAt(0));
+	
+							boolean two = cards[i].charAt(0) == cards[j].charAt(0);
+							
+							if (three && two) {
+								
+								fullHouse.append(cards[f] + " ");
+								fullHouse.append(cards[s] +  " ");
+								fullHouse.append(cards[t] + " ");
+								fullHouse.append(cards[i] + " ");
+								fullHouse.append(cards[j] + " ");
+								
+								System.out.print(fullHouse.toString());
+							}
+						}
+					}
+				}
+				
+			}
+			
+		}
+
+	}
+
+}

@@ -1,0 +1,15 @@
+.meta {
+     word-spacing: 2px;
+     font-size: 80%;
+     margin-bottom: 20px;
+     color: #777777;
+ }
+
+.blue {
+    color: #605EA7;
+}
+
+.enter {
+    display: inline-block;
+    margin-top: 100px;
+}

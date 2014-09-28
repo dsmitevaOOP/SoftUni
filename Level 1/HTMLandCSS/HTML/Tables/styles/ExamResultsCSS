@@ -1,0 +1,27 @@
+td {
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+
+th {
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+
+th.head {
+    font-size: 20px;
+}
+
+table {
+    width: 30%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    font-family: Verdana;
+}
+
+tfoot {
+    text-align: right;
+}

@@ -1,0 +1,15 @@
+ul.list{
+     list-style-type: square;
+ }
+
+footer.footer{
+    width: 984px;
+    position: absolute;
+    bottom: 0;
+    height: 71px;
+    border-top: 10px;
+}
+
+hr.border{
+    margin-top: 20em;
+}

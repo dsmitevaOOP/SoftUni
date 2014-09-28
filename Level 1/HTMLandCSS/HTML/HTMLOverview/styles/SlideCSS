@@ -1,0 +1,76 @@
+body{
+    background-size: 100%;
+    background-image:url('../img/Capture.PNG')
+}
+
+h1
+{
+    font-family: Consolas;
+    color:#F3BE60;
+    font-weight: bold;
+}
+ul.square {
+    font-family: Consolas;
+    list-style-type:square; color:#F3BE60;
+    text-decoration: none;
+    color: white;
+    font-size: 19px;
+}
+
+div.first {
+    font-family: Consolas;
+    width: 95%;
+    background: rgba(32,32,30,1);
+    font-weight: normal;
+    font-size: 24px;
+    color:#FBEEC9;
+    opacity: 0.7;
+    border-bottom-width: 1px;
+    border-style: solid;
+    border-color: white;
+}
+
+div.second {
+    font-family: Consolas;
+    width: 95%;
+    background: rgba(32,32,30,1);
+    font-weight: normal;
+    font-size: 24px;
+    color:#FBEEC9;
+    opacity: 0.7;
+    border-bottom-width: 1px;
+    border-style: solid;
+    border-color: white;
+}
+
+div.third {
+    font-family: Consolas;
+    width: 95%;
+    background: rgba(32,32,30,1);
+    font-weight: normal;
+    font-size: 24px;
+    color:#FBEEC9;
+    opacity: 0.7;
+    border-bottom-width: 1px;
+    border-style: solid;
+    border-color: white;
+}
+
+html body ul.square h2 li{
+    font-size: 30px;
+    font-weight: normal;
+}
+
+span.span{
+    font-family: Consolas;
+    color: #F3CD60;
+}
+
+footer {
+    font-family: Consolas;
+    text-align: right;
+    font-weight: bold;
+    font-size: 24px;
+    color:white;
+    margin-top: 3em;
+}

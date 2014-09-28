@@ -1,0 +1,25 @@
+table {
+    width: 350px;
+}
+
+td {
+    border-collapse: collapse;
+}
+
+html body table.table tr td {
+    word-wrap: break-word;
+}
+
+span {
+    font-weight: bold;
+}
+
+thead {
+    text-align: left;
+    vertical-align: text-top;
+    font-size: 30px;
+}
+
+th {
+    height: 80px;
+}

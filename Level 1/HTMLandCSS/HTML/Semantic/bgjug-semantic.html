@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>BGJUG</title>
+    <link rel="stylesheet" href="styles/bgjug-semantic" type="text/css" media="screen">
+</head>
+
+<body>
+
+<header>
+
+    <h1>BGJUG - Bulgarian Java User Group</h1>
+    <nav>
+        <form>
+            <input type="text" placeholder="Search"/>
+            <input type="image" src="img/search-btn.png" alt="Go">
+        </form>
+        <ul>
+            <li onclick="window.open('http://java-bg.org/%D0%B7%D0%B0-%D0%B3%D1%80%D1%83%D0%BF%D0%B0%D1%82%D0%B0/', '_blank')">about</li>
+            <li onclick="window.open('about:blank', '_blank')">events</li>
+            <li onclick="window.open('http://java-bg.org/contacts/', '_blank')">contacts</li>
+        </ul>
+    </nav>
+
+</header>
+
+<aside id="left">
+
+    <ul>
+        <li>An Architecture for E-Voting</li>
+        <li>Integration Tests for External Services</li>
+        <li>Algorithmic Music Influenced by Tweets</li>
+        <li>The Low Quality of Scientific Code</li>
+        <li>Development "Methodologies"</li>
+    </ul>
+
+</aside>
+
+<aside id="right">
+
+    <section>
+        <span>language</span>
+        <select>
+            <option>English</option>
+            <option selected>Bulgarian</option>
+            <option>Chinese</option>
+        </select>
+    </section>
+
+    <section>
+        <span>blogroll</span>
+    </section>
+
+</aside>
+
+
+<main>
+
+    <article>
+
+        <h2>An Architecture for E-Voting</h2>
+        <span class="meta">by BOZHO on MAY 27, 2014 LEAVE A COMMENT</span>
+        <p>
+            E-voting is a hot topic in my country,and has been discussed a lot everywhere.
+            Since we are already using the internet and touch-screen technologies in our everyday lives,
+            why not apply that to voting? And not for the sake of technology itself, but in order to
+            prevent technical mistakes and election fraud, and make [...]
+        </p>
+        <span class="blue">Continue Reading →</span>>
+    </article>
+
+    <article>
+
+        <h2>The Optional Type API</h2>
+        <span class="meta">by BOZHO on MARCH 19, 2014 LEAVE A COMMENT</span>
+        <p>
+            Java 8 introduces the Optional class. In a nutshell, instead of returning null,
+            and then checking for null, you return an Optional instance, which can either have
+            or not have a value set. That way you don’t fail with NullPointerException. I won’t
+            discuss whether the Optional type will eliminate NPEs completely (it won’t). Instead I’ll […]
+        </p>
+        <span class="blue">Continue Reading →</span>
+
+    </article>
+
+    <span class="blue enter">← Previous Entries</span>
+
+</main>
+
+<footer>
+
+    <div id="footer">
+
+        <section id="bgjug">
+            BGJUG - Java Bulgarian User Group
+        </section>
+
+        <section id="pages">
+            <span>Pages</span>
+            <nav>
+                <ul>
+                    <li onclick="window.open('http://java-bg.org/%D0%B7%D0%B0-%D0%B3%D1%80%D1%83%D0%BF%D0%B0%D1%82%D0%B0/', '_blank')">about BGJUG</li>
+                    <li onclick="window.open('about:blank', '_blank')">events</li>
+                    <li onclick="window.open('http://java-bg.org/contacts/', '_blank')">contacts</li>
+                </ul>
+            </nav>
+        </section>
+
+        <section id="latest">
+            <span>The Latest</span>
+            <p id="heading">An Architecture for E-Voting</p>
+            <p id="text" class="text">E-voting is a hot topic in my country, and has been discussed [....]</p>
+        </section>
+
+        <section id="more">
+            <span>More</span>
+            <p class="text">Thanks for dropping by! Feel free to join the discussion by leaving comments, and stay updated by subscribing to the <span id="other">RSS feed.</span></p>
+        </section>
+
+        <section id="copyright">
+            &copy; 2011 BGJUG - Java Bulgarian User Group
+        </section>
+
+    </div>
+
+</footer>
+
+</body>
+
+</html>

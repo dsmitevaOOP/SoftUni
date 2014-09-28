@@ -1,0 +1,9 @@
+E:\Dilyana\SoftUni\Level 2\OOP\PCCatalog\PCCatalog\bin\Debug\PCCatalog.exe.config
+E:\Dilyana\SoftUni\Level 2\OOP\PCCatalog\PCCatalog\obj\Debug\PCCatalog.csprojResolveAssemblyReference.cache
+E:\Dilyana\SoftUni\Level 2\OOP\PCCatalog\PCCatalog\bin\Debug\PCCatalog.exe
+E:\Dilyana\SoftUni\Level 2\OOP\PCCatalog\PCCatalog\bin\Debug\PCCatalog.pdb
+E:\Dilyana\SoftUni\Level 2\OOP\PCCatalog\PCCatalog\obj\Debug\PCCatalog.exe
+E:\Dilyana\SoftUni\Level 2\OOP\PCCatalog\PCCatalog\obj\Debug\PCCatalog.pdb
+E:\Dilyana\SoftUni\Level 2\OOP\DefiningClasses\PCCatalog\PCCatalog\bin\Debug\PCCatalog.exe.config
+E:\Dilyana\SoftUni\Level 2\OOP\DefiningClasses\PCCatalog\PCCatalog\obj\Debug\PCCatalog.exe
+E:\Dilyana\SoftUni\Level 2\OOP\DefiningClasses\PCCatalog\PCCatalog\obj\Debug\PCCatalog.pdb

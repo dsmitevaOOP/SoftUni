@@ -1,0 +1,6 @@
+E:\Dilyana\SoftUni\Level 2\OOP\StaticMembers\HTMLDispatcher\HTMLDispatcher\bin\Debug\HTMLDispatcher.exe.config
+E:\Dilyana\SoftUni\Level 2\OOP\StaticMembers\HTMLDispatcher\HTMLDispatcher\bin\Debug\HTMLDispatcher.exe
+E:\Dilyana\SoftUni\Level 2\OOP\StaticMembers\HTMLDispatcher\HTMLDispatcher\bin\Debug\HTMLDispatcher.pdb
+E:\Dilyana\SoftUni\Level 2\OOP\StaticMembers\HTMLDispatcher\HTMLDispatcher\obj\Debug\HTMLDispatcher.csprojResolveAssemblyReference.cache
+E:\Dilyana\SoftUni\Level 2\OOP\StaticMembers\HTMLDispatcher\HTMLDispatcher\obj\Debug\HTMLDispatcher.exe
+E:\Dilyana\SoftUni\Level 2\OOP\StaticMembers\HTMLDispatcher\HTMLDispatcher\obj\Debug\HTMLDispatcher.pdb

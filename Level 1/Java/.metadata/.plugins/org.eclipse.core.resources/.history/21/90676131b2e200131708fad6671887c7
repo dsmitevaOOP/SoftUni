@@ -1,0 +1,70 @@
+import java.util.HashSet;
+import java.util.List;
+import java.util.Scanner;
+import java.util.Set;
+import java.util.TreeSet;
+import java.util.stream.Collectors;
+
+import javax.swing.text.html.HTMLDocument.Iterator;
+
+
+public class SequencesOfEqualStrings {
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		String[] arr = input.nextLine().split(" ");
+		Set<String> hs = new HashSet<String>();
+		StringBuilder sb = new StringBuilder();
+		boolean dif = true;
+		
+		int size = 0;
+		
+		for (int i = 0; i < arr.length; i++) {
+			hs.add(arr[i]);
+		}
+		
+		hs.stream().forEach(x -> System.out.print(x + " "));
+	
+		String[] original = hs.toArray( new String[hs.size()] );
+		
+		for (int i = 0; i < original.length; i++) {
+			for (int j = 0; j < original.length; j++) {
+				if (i != j) {
+					if (arr[i].equals(arr[j])) {
+						dif = false;
+					}
+				}
+			}
+		}
+		
+		for (int i = 0; i < original.length; i++) {
+			for (int j = 0; j < arr.length; j++) {
+				
+				if (original[i].equals(arr[j])) {
+					
+					sb.append(arr[j]);
+					sb.append(" ");
+				}
+			}
+			
+			if (dif) {
+				for (int j = 0; j < arr.length; j++) {
+					//System.out.println(arr[j]);
+				}
+				return;
+			} else {
+				
+				if (i == 0) {
+					
+					//System.out.println(sb.toString());
+				}
+				
+				if (i > 0 && sb.length() != size) {
+					//System.out.println(sb.toString());
+				}
+				
+				size = sb.length();
+				sb = new StringBuilder();
+			}
+		}
+	}
+}

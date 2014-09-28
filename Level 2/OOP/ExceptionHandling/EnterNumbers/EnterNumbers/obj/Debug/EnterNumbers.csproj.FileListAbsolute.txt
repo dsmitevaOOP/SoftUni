@@ -1,0 +1,5 @@
+E:\Dilyana\SoftUni\Level 2\OOP\ExceptionHandling\EnterNumbers\EnterNumbers\bin\Debug\EnterNumbers.exe.config
+E:\Dilyana\SoftUni\Level 2\OOP\ExceptionHandling\EnterNumbers\EnterNumbers\bin\Debug\EnterNumbers.exe
+E:\Dilyana\SoftUni\Level 2\OOP\ExceptionHandling\EnterNumbers\EnterNumbers\bin\Debug\EnterNumbers.pdb
+E:\Dilyana\SoftUni\Level 2\OOP\ExceptionHandling\EnterNumbers\EnterNumbers\obj\Debug\EnterNumbers.exe
+E:\Dilyana\SoftUni\Level 2\OOP\ExceptionHandling\EnterNumbers\EnterNumbers\obj\Debug\EnterNumbers.pdb
